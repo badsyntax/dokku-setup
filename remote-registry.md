@@ -4,8 +4,6 @@ Use a remote registry for storing custom base docker images.
 
 ## GitHub Container Registry
 
-See also: https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images
-
 First create a new personal access token (`PAT`) with **only** `read:packages`, `write:packages` & `delete:packages` scopes. You MUST deselect the `repo` scope.
 
 ### Login to the registry
@@ -68,3 +66,7 @@ git push dokku
 ```
 
 The image should be built by first pulling the base image from the remote registry.
+
+## See also
+
+https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images
