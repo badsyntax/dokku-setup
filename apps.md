@@ -15,7 +15,7 @@ dokku apps:destroy app-name
 
 ## TLS
 
-See [TLS][./tls.md].
+See [TLS](./tls.md).
 
 ## Redeploy
 
