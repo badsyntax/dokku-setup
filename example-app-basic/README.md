@@ -1,16 +1,13 @@
 # Example App
 
-## dokku setup
+## Deploy to dokku
 
 ```bash
 git remote add dokku dokku@dokku.me:app-name
-```
-
-Push to deploy:
-
-```bash
 git push dokku
 ```
+
+### Setup TLS
 
 On the dokku server:
 
