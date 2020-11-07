@@ -1,8 +1,10 @@
-# install dokku
+# Install dokku
+
+See http://dokku.viewdocs.io/dokku/getting-started/installation/
 
 ## SSH setup
 
-Add your public key to your server to allow password-less logins:
+Add your local public key to the dokku server to allow password-less logins:
 
 ```ssh
 cat ~/.ssh/id_rsa.pub | ssh root@dokku.me 'cat >> ~/.ssh/authorized_keys'
