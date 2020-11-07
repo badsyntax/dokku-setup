@@ -79,7 +79,7 @@ Setup TLS:
 dokku letsencrypt app-name
 ```
 
-## Installing the askimet plugin
+## Installing the askimet plugin
 
 ```bash
 cd /var/discourse
