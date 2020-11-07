@@ -2,7 +2,13 @@
 
 As you create docker images outside of the dokku api you can quickly loose track of the created images, networks and containers.
 
-Use docker prune to prune everything that is not required or dangling.
+View disk usage:
+
+```bash
+docker system df
+```
+
+Use docker prune to free up resources:
 
 ```bash
 docker system prune
