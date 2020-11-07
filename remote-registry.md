@@ -1,5 +1,7 @@
 # Using a remote docker registry
 
+Use a remote registry for storing custom base docker images. 
+
 ## GitHub Container Registry
 
 See also: https://docs.github.com/en/free-pro-team@latest/packages/managing-container-images-with-github-container-registry/pushing-and-pulling-docker-images
