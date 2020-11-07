@@ -9,5 +9,6 @@ Simple docs on how to setup and use dokku.
 - [Deployment notifications](./email-on-deploy.md)
 - [Monitoring](./monitoring.md)
 - [Builds in CI](./builds-in-ci.md)
+- [Remote docker registry](./remote-registry.md)
 - [Discourse](./discourse.md)
 - [Maintenance](./maintenance.md)
