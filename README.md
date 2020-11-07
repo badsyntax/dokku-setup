@@ -3,11 +3,11 @@
 Simple docs on how to setup and use dokku.
 
 - [Install dokku](./install.md)
-- [Create an app](./create-app.md)
-- [Setup tls](./tls.md)
-- [Setup email](./email.md)
-- [Setup deployment notifications](./email-on-deploy.md)
-- [Setup monitoring](./monitoring.md)
+- [Apps](./apps.md)
+- [TLS](./tls.md)
+- [Email](./email.md)
+- [Deployment notifications](./email-on-deploy.md)
+- [Monitoring](./monitoring.md)
 - [Builds in CI](./builds-in-ci.md)
-- [Install discourse](./discourse.md)
+- [Discourse](./discourse.md)
 - [Maintenance](./maintenance.md)
