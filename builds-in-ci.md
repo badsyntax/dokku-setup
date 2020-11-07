@@ -52,7 +52,6 @@ jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
-    if: github.event_name == 'release' && github.event.action == 'published'
     steps:
       - uses: actions/checkout@v2
       - name: Setup SSH
