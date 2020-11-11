@@ -55,3 +55,24 @@ Copy [example-app-basic](./example-app-basic) and update the `app-name` string i
 # add a domain to an app
 dokku domains:add app-name dokku.example.com
 ```
+
+## Create app from remote image
+
+Download and tag the docker image
+
+```bash
+docker pull org/image:latest # dockerhub
+docker tag org/image:latest dokku/app:latest
+```
+
+Create the application in Dokku:
+
+```bash
+dokku apps:create app
+```
+
+Deploy the application in Dokku:
+
+```bash
+dokku tags:deploy app latest
+```

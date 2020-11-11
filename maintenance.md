@@ -8,7 +8,13 @@ View disk usage:
 docker system df
 ```
 
-Use docker prune to free up resources:
+Use the dokku cleanup tool:
+
+```bash
+dokku cleanup
+```
+
+Use docker prune:
 
 ```bash
 docker system prune
